@@ -1,0 +1,30 @@
+.container-gitcode{
+    background-color: #000000;
+    padding: 20px;
+    color: white;
+    height: auto;
+    width: 100%;
+    border-bottom: 2px solid #dedede;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.git-center{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.git-center h2{
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    padding-top: 10px;
+} .git-center p{
+    font-family: "Inter", sans-serif;
+    color: aliceblue;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10px;
+    font-size: 17px;
+    line-height: 27px;
+    padding-top: 10px;
+}

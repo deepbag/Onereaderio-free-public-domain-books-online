@@ -1,0 +1,106 @@
+
+.row h2{
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: left;
+    word-spacing: 0px;
+    color: white;
+    height: 56px;
+    width: 543px;
+    margin: 0 0 15px 0;
+    padding: 0 0 20px 15px;
+    display: block;
+} .img-center img{
+    width: 250px;
+}
+.img-center{
+    text-align: center;
+    padding-top: 50px;
+} .img-center h2{
+    color: white;
+    padding-top: 30px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+} .img-center p{
+    font-family: "Inter", sans-serif;
+    color: aliceblue;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10px;
+    font-size: 17px;
+    line-height: 27px;
+} .social-media{
+    text-align: center;
+} .social-space{
+    margin-right: 15px;
+    color: black;
+} .social-space:hover{
+    color: #ff8b38;
+} .social-back{
+    background-color: azure;
+    margin-left: 38%;
+    margin-right: 38%;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    border-radius: 35px;
+    padding-left: 25px;
+} .about-con{
+    border-bottom: 2px solid #dedede;
+}
+.scnd-con{
+    padding: 60px;
+    background-color: black;
+}
+.scnd-con h3{
+    color: white;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 23px;
+} .scnd-con p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #e6e6e6;
+    padding-right: 50px;
+}
+
+@media (max-device-width: 360px){
+    .scnd-con{
+        padding-right: 0;
+    }
+}
+
+@media (max-device-width: 480px){
+    .img-center h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .img-center p{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .social-back{
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    .social-media{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .scnd-con{
+        padding: 30px;
+        padding-right: 0;
+        background-color: black;
+    }
+    
+}

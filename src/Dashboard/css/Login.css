@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+  }
+  
+.container-login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 75px;
+  background-color: white;
+} 
+.form-login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: aliceblue;
+  padding: 60px;
+  border: 1px solid lightgray;
+} 
+.form-login > input {
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+  background: #fff;
+  font-size: 16px;
+  color: rgb(0, 0, 32);
+  outline: none;
+}
+.form-login > button {
+  padding: 6px;
+  border: none;
+  background-color: rgb(2, 2, 110);
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  margin-top: 10px;
+  font-family: "Inter", sans-serif;
+}

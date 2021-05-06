@@ -1,0 +1,53 @@
+.container-book-header{
+    width: auto;
+    height: 80px;
+    padding: 20px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    border-bottom: 6px solid #dedede;
+}
+.brand{
+    color: white;
+    font-weight: 800;
+}
+.navlink{
+    margin-right: 15px;
+}
+.navmob{
+    display: block;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.mob-menu{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    height: auto;
+    padding-right: 100px;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.btn-bar{
+    border: none;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+@media (max-device-width: 480px){
+    .navmenu{
+        display: none;
+    }
+}
+@media (min-device-width: 480px){
+    .popbtn{
+        display: none;
+    }
+}

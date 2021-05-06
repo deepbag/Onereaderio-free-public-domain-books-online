@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+.container-bookform{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid lightgray;
+} 
+.form-book{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: aliceblue;
+  padding: 60px;
+  border: 1px solid lightgray;
+} 
+.form-book > input, textarea {
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+  background: #fff;
+  font-size: 16px;
+  color: rgb(0, 0, 32);
+  outline: none;
+  width: 370px;
+}
+.form-book > button {
+  padding: 6px;
+  border: none;
+  background-color: rgb(2, 2, 110);
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  margin-top: 10px;
+  font-family: "Inter", sans-serif;
+}
+.form-book > textarea {
+  height: 150px;
+  max-width: 400px;
+  min-height: 100px;
+}
