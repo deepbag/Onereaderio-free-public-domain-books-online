@@ -10,6 +10,7 @@
 </div>
 
 ## Onereaderio - a Free Public Domain eBooks
+( if any issues and questions feel to free contact on linkedin instagram github )
 
 ### NPM Packages used in this Onereaderio
 
@@ -29,6 +30,8 @@
 2. Clone this repo CMD : git clone https://github.com/deepbag/Onereaderio-free-public-domain-books-online.git
 3. Install NPM Packages in this repo
 4. Change the code as you want!
+5. Goto firebase console create project copy config code and paste into firebase.js
+6. Config firestore and authentication in firebase
 
 ### MIT License
 Copyright (c) 2021 Deep Bag
