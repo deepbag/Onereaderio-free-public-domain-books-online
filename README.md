@@ -10,7 +10,7 @@
 </div>
 
 ## Onereaderio - a Free Public Domain eBooks
-( if any issues and questions feel to free contact on linkedin instagram github )
+( if any issues and questions feel to free contact on linkedin instagram github or email : onereader.io@gmail.com )
 
 ### NPM Packages used in this Onereaderio
 
