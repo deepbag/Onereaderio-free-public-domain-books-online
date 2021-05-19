@@ -40,11 +40,11 @@ export default function About() {
             </div>
             <div className="scnd-con">
                 <h3>About Bookstore :</h3>
-                <p>We have opened a free library platform for you. Where you can download any book of pdf for free. Read the book and make your mind educate. Self education is a key of success. Openreader is a open source platform.</p>
+                <p>We have opened a free library platform for you. Where you can download any book of pdf for free. Read the book and make your mind educate. Self education is a key of success. readerio is a open source platform.</p>
                 <h3>About Developer :</h3>
                 <p>Hello, I'm Deep Bag. I'm a computer science engineering student. There are some things that give me satisfaction. I don't like coding but I know why I like to make projects. I'm a certified WordPress Developer, React Developer and Cloud Engineer.</p>
                 <h3>Books Copyright :</h3>
-                <p>GNU General Public License v3.0 <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" style={{fontWeight: '700'}} target="_blank" rel="noreferrer">License</a></p>
+                <p>GNU General Public License v3.0 <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" style={{fontWeight: '700'}} target="_blank" rel="noreferrer">License</a> Public Domain Book</p>
                 <h3>Privacy Policy :</h3>
                 <p>We use the information we collect in various ways - Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the webste, and for marketing and promotional purposes</p>
             </div>
