@@ -12,7 +12,7 @@ export default function Header() {
     return(
         <>
             <div className="container-book-header">
-                <a href="/"><h2 className="brand">Onereaderio</h2></a>
+                <a href="/"><h2 className="brand">readerio</h2></a>
                 <div className="popbtn">
                     <Popup
                         trigger={open => (<button className="btn-bar">{open ? <AppsIcon /> : <AppsIcon />}</button>)}
